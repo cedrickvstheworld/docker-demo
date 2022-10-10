@@ -1,0 +1,28 @@
+{
+  "name": "docker-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedrickvstheworld/docker-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedrickvstheworld/docker-demo/issues"
+  },
+  "homepage": "https://github.com/cedrickvstheworld/docker-demo#readme",
+  "dependencies": {
+    "@types/morgan": "^1.9.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.3"
+  }
+}
